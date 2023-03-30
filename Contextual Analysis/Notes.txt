@@ -1,0 +1,1 @@
+Download the networks saved as gml files from the drive link into this folder. If you are running the code in the notebook, the created gml will be stored here.
