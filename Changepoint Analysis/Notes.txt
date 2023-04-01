@@ -1,0 +1,6 @@
+This folder contains the code files for the changepoint analysis section of the thesis
+
+Make sure the folder contains:
+1) national tweet_details.pkl (copy from the folder "Tweets Preprocessing" if running the entire thesis workflow)
+
+
