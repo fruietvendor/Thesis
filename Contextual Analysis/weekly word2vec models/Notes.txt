@@ -1,2 +1,2 @@
 Download and extract the compressed files from the "weekly word2vec models" folder on the drive link. If you are training the word2vec models yourself using
-the weekly text .txt files, 
+the weekly text .txt files, the word2vec models will be saved in this folder
