@@ -53,3 +53,5 @@ If you are running through the entire thesis workflow on your own:
 7) Run the "creating corpus of tweets for every week and training word2vec models" notebook to train the word2vec models used in the contextual analysis
 section.
 9) Follow the steps listed above to reproduce the respective sections.
+###
+IMPORTANT: Delete the Notes.txt files from all the folders after cloning/downloading the git repo. 
