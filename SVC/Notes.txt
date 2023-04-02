@@ -1,0 +1,1 @@
+Acts as a memory dump for the SVM while training.
