@@ -1,6 +1,0 @@
-The .gml files from the "Creating networks for the contextual analysis" notebook are saved here. Load these .gml files using the softwards gephi (https://gephi.org/)
-
-In gephi
-1) Choose the Force Atlas 2 algorithm
-2) Run the maximise modularity functio
-3) Run the Page Rank algorithm and scale the nodes according to it.
