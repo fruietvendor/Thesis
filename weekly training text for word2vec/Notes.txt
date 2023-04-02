@@ -1,0 +1,4 @@
+The training txt files for the weekly word2vec models used the in the contextual analysis will be saved here if you run the 
+"creating corpus of tweets for every week and training word2vec models for each week" notebook.
+
+You can download the txt files from the Drive link if you want to just train the word2vec models.
