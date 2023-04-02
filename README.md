@@ -27,22 +27,22 @@ all cleaned tweets" notebook.
 to create the networks used for contextual analysis.
 4) Download and extract the "word2vec".rar file if you want to train the word2vec model used for the sentiment 
 analysis.
-##########
+###
 To reproduce the sentiment analysis section:
 1) Download the "wv_model.pkl" into the main folder and run the "sentiment analysis" notebook.
-##########
+###
 To reproduce the institutional settings section:
 1) Extract the "owid-covid".rar file in the main folder.
 2) Run the createing plots for India's covid preparedness notebook.
-##########
+###
 To reproduce the changepoint analysis section:
 1) Download the "national tweet_details.pkl" file from the Drive into the main folder.
 2) Run the "descriptive statstics" notebook for the descriptive statstics section and the "changepoint identification" notebook for the changepoint detection
-##########
+###
 To reproduce the contextual analysis section:
 1) Download the "weekly word2vec models" folder from the Drive link, and extract the files into the "weekly word2vec models" subfolder.
 4) Run the "creating networks for contextual analysis" notebook.
-###########
+###
 If you are running through the entire thesis workflow on your own:
 1) Download the "Raw Data" into the "Raw Data" subfolder.
 2) Run the "tweets preprocesing" notebook to clean the tweets.
