@@ -1,3 +1,0 @@
-This folder contains the code for the "insitutional preparedness" section of the thesis. 
-
-Make sure that this folder contains the "owid-covid" data. extract the rar file to get the csv
