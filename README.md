@@ -52,6 +52,6 @@ If you are running through the entire thesis workflow on your own:
 6) Run the "identifying tweets about Muslims" notebook to tag Muslim related tweets and create the dataset for the changepoint detection.
 7) Run the "creating corpus of tweets for every week and training word2vec models" notebook to train the word2vec models used in the contextual analysis
 section.
-9) Follow the steps listed above to reproduce the respective sections.
+9) Follow the steps listed above in the reproducing section to reproduce the respective thesis sections.
 ###
-IMPORTANT: Delete the Notes.txt files from all the folders after cloning/downloading the git repo. 
+IMPORTANT: Delete the Notes.txt files from all the subfolders after cloning/downloading the git repo. 
