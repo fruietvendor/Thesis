@@ -11,18 +11,45 @@ snippets and reproduce the thesis plots:
 4) Follow these instructions to properly setup Jupyter Notebook using conda environments. 
   https://towardsdatascience.com/get-your-conda-environment-to-show-in-jupyter-notebooks-the-easy-way-17010b76e874
   https://stackoverflow.com/questions/58068818/how-to-use-jupyter-notebooks-in-a-conda-environment
-5) Navigate to the folder that you want to run the code of using the miniconda prompt, and then run jupyter notebook from within the folder. The code and relevant data files will be visible.
-
-###
-If you want to replicate the entire thesis workflow or train the word2vec models for the sentiment analysis or the weekly ego networks
-then you must download the compressed data files from the Google Drive link and save them in the main folder specific to the task you are attempting
+5) Navigate to the main folder using the miniconda prompt, and then run jupyter notebook from within the folder. The code and relevant data files will be visible.
 
 ###
 To create the graphs used in the contextual analysis, you must download and use the software gephi from https://gephi.org/
 ###
 https://drive.google.com/drive/folders/1qHlJvMTXaYPhAIPsUiYDr_zcnu9ukmeq?usp=share_link
 The Drive link contains 4 folders.
-1) The "word2vec" folder contains the compressed txt file containing all tweets for training the word2vec model. Download and extract it into the "Tweets Preprocessing" folder. Use it to train the word2vec model.
-2) The "Tweet Data" folder contains the compressed raw and cleaned tweets. Download and extract them into the "Raw Data" and "Cleaned Data" folders in the "Tweets Preprocessing". Keep in mind if you start the preprocessing from the Raw Data, the output of that will get saved in "Cleaned Data"
-3) The "Sentiment Analysis" folder contains the trained word2vec model and the sentiment classifier pipeline. Both can be downloaded into the "Tweets Preprocessing" folder to facilitate the sentiment prediction of all the cleaned tweets. Or the word2vec model can be downloaded into the "Sentiment analysis" folder of the Github repository to run the grid-search CV to train the classifier.
-4) The "contextual analysis" folder contains two folders. The first contains the training tweets for each of the weekly word2vec models (these are in the other folder). Use the tweets txt files to train the weekly word2vec models yourself or use the trained models to create the network. 
+1) Download the "Raw Data".rar file from the "Tweet Data" folder on the Drive into the "Raw Data" subfolder if you want to begin the thesis workflow from
+the beginning. Download the "Cleaned Data".rar file into the "Cleaned Data" subfolder if you want to skip the preprocessing stage.
+2) Download the "wv_model.pkl" from the "Sentiment Analysis" folder on the Drive link to create feature vectors for the model training, cross validation 
+and testing in the "sentiment analysis" notebook. The "classifier.pkl" file can be downloaded into the main folder for the "running sentiment analysis on
+all cleaned tweets" notebook.
+3) Extract all the models in the "word2vec models" folder(in the "Contextual Analysis" folder on the Drive) into the "weekly word2vec models" subfolder
+to create the networks used for contextual analysis.
+4) Download and extract the "word2vec".rar file if you want to train the word2vec model used for the sentiment 
+analysis.
+##########
+To reproduce the sentiment analysis section:
+1) Download the "wv_model.pkl" into the main folder and run the "sentiment analysis" notebook.
+##########
+To reproduce the institutional settings section:
+1) Extract the "owid-covid".rar file in the main folder.
+2) Run the createing plots for India's covid preparedness notebook.
+##########
+To reproduce the changepoint analysis section:
+1) Download the "national tweet_details.pkl" file from the Drive into the main folder.
+2) Run the "descriptive statstics" notebook for the descriptive statstics section and the "changepoint identification" notebook for the changepoint detection
+##########
+To reproduce the contextual analysis section:
+1) Download the "weekly word2vec models" folder from the Drive link, and extract the files into the "weekly word2vec models" subfolder.
+4) Run the "creating networks for contextual analysis" notebook.
+###########
+If you are running through the entire thesis workflow on your own:
+1) Download the "Raw Data" into the "Raw Data" subfolder.
+2) Run the "tweets preprocesing" notebook to clean the tweets.
+3) Train the word2vec model using the "training word2vec" notebook.
+4) Run the "sentiment analysis" notebook to run train, cross validate and test the classifier.
+5) Run the "sentiment analysis on all cleaned tweets" notebook to tag all tweets with their sentiment value.
+6) Run the "identifying tweets about Muslims" notebook to tag Muslim related tweets and create the dataset for the changepoint detection.
+7) Run the "creating corpus of tweets for every week and training word2vec models" notebook to train the word2vec models used in the contextual analysis
+section.
+9) Follow the steps listed above to reproduce the respective sections.
