@@ -1,1 +1,0 @@
-This folder acts as a memory dump when the SVM is being trained.
