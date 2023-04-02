@@ -1,0 +1,1 @@
+The .gml files containing the built ego networks are saved here.
