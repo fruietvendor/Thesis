@@ -1,4 +1,0 @@
-If you are running the "creating corpus of tweets for every week and training word2vec models for each week" notebook, the trained word2vec models will get 
-saved here. 
-
-This folder must also be saved in the "Contextual Analysis" main folder if you are running through the entire thesis workflow.
