@@ -1,1 +1,0 @@
-Download the networks saved as .gml files in the drive link. If you are running the code, the created network .gml files will be saved here.

@@ -1,9 +1,0 @@
-This folder contains the code and files for creating the networks used in the contextual analysis
-
-Make sure it contains the hinglish_stopwords.pkl file
-
-If you are running the entire thesis workflow, replace the "weekly word2vec models" and "weekly training text for word2vec" folders with the corresponding
-folders from the "Tweets Preprocessing" section.
-
-If you are downloading from the Drive link, replace the "weekly word2vec models" and "weekly training text for word2vec" folders with the corresponding
-folders from the drive link
