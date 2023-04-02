@@ -1,0 +1,4 @@
+This folder will save the word2vec models trained after running the "creating corpus of tweets for every week and training word2vec models for each week"
+folder.
+
+You can download the weekly word2vec models from the Drive link if you only want to create the networks for the contextual analysis.
