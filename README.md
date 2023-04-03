@@ -9,8 +9,8 @@ snippets and reproduce the thesis plots:
 2) Install miniconda from https://docs.conda.io/en/latest/miniconda.html
 3) Preferebly create a conda virtual environment. Install the required packages using the requirements.txt file in the environment. 
 4) Follow these instructions to properly setup Jupyter Notebook using conda environments. 
-  https://towardsdatascience.com/get-your-conda-environment-to-show-in-jupyter-notebooks-the-easy-way-17010b76e874
-  https://stackoverflow.com/questions/58068818/how-to-use-jupyter-notebooks-in-a-conda-environment
+https://towardsdatascience.com/get-your-conda-environment-to-show-in-jupyter-notebooks-the-easy-way-17010b76e874
+https://stackoverflow.com/questions/58068818/how-to-use-jupyter-notebooks-in-a-conda-environment (I used option 3)
 5) Navigate to the main folder using the miniconda prompt, and then run jupyter notebook from within the folder. The code and relevant data files will be visible.
 
 ###
