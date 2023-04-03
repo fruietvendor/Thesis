@@ -1,0 +1,16 @@
+numpy
+pandas
+matplotlib
+seaborn
+colorcet
+sklearn
+emot
+indic_transliteration_py
+gensim
+ruptures
+twint
+nest_asyncio
+networkx
+jupyter
+ipykernel
+nb_conda_kernels
